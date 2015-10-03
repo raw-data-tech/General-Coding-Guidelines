@@ -17,25 +17,24 @@ Why?
 
 ## Comments
 
-	'''python
-	# convert to cents
-	a = x * 100
-
-    # avg cents per customer 
-    avg = a / n
-
-    # add to list
-    avgs < avg
-    t += 1
-    '''
+  ```python
+  # convert to cents
+  a = x * 100
+  
+  # avg cents per customer 
+  avg = a / n
+  
+  # add to list
+  avgs < avg
+  t += 1
+```
 Better    
 
-    '''python
-    total_cents = total * 100
-	average_per_customer = total_cents / customer_count
-
-	track_average(average_per_customer)
-    '''
+  ```python
+  total_cents = total * 100
+  average_per_customer = total_cents / customer_count
+  track_average(average_per_customer)
+  ```
 
 ## Functions
 
@@ -44,12 +43,4 @@ Before implementing a function you should have
 2. What are the ouputs
 
 Reduce [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
-    ```javascript
-    function example() {
-      superPower(); // => Flying
 
-      function superPower() {
-        console.log('Flying');
-      }
-    }
-    ```
