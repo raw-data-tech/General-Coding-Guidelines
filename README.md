@@ -59,9 +59,7 @@ You are violating of DRY
   > Based on the scope give a sensible name to the function.
 
 - Measure complexity
-  One metric for code complexity of a function [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
-
-  > Cyclomatic complexity is one measure of code quality. It helps us know exactly how complex a particular routine is, and helps us refactor that routine as necessary. 
+  > [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) is one measure of code quality. It helps us know exactly how complex a particular routine is, and helps us refactor that routine as necessary. 
   
   For most functions, a cyclomatic complexity 
     1. below 4 is considered good
