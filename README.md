@@ -49,12 +49,17 @@ You are violating of DRY
 
 ## Functions
 
-Before implementing a function you should have
-1. What are the inputs?
-2. What are the ouputs?
-3. Is there any side effects or actions(update DB or send email notification)? 
+- Scope
+  > Be clear on what the function does
+  1. What are the inputs?
+  2. What are the ouputs?
+  3. Is there any side effects or actions(update DB or send email notification)? 
 
-- Reduce [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
+- Name 
+  Based on the scope give a sensible name to the function.
+
+- Measure complexity
+  One metric for code complexity of a function [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
 
   > Cyclomatic complexity is one measure of code quality. It helps us know exactly how complex a particular routine is, and helps us refactor that routine as necessary. 
   
