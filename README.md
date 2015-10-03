@@ -1,13 +1,27 @@
-# RawData Technologies General Coidng Guide
+# RawData Technologies General Coding Guide
 
-  > Why? This ensures that you can't reassign your references (mutation), which can lead to bugs and difficult to comprehend code.
 
-```javascript
-// bad
-var a = 1;
-var b = 2;
+## Table of Contents
+1. [DRY](#dry)
+1. [comments](#comments)
+1. [Functions](#Functions)
+1. Classes
+1. Think about data than code
+1. Clear variable names
 
-// good
-const a = 1;
-const b = 2;
-```
+## DRY
+What?
+Why?
+1. for a requirement change similar code change at mutiple places
+2. copy pase of code
+
+## Comments
+
+## Functions
+
+Before implementing a function you should have
+1. What are the inputs
+2. What are the ouputs
+
+Reduce [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
+
