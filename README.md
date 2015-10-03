@@ -56,7 +56,7 @@ You are violating of DRY
   3. Is there any side effects or actions(update DB or send email notification)? 
 
 - Name 
-  Based on the scope give a sensible name to the function.
+  > Based on the scope give a sensible name to the function.
 
 - Measure complexity
   One metric for code complexity of a function [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
