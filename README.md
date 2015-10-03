@@ -44,4 +44,12 @@ Before implementing a function you should have
 2. What are the ouputs
 
 Reduce [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
+    ```javascript
+    function example() {
+      superPower(); // => Flying
 
+      function superPower() {
+        console.log('Flying');
+      }
+    }
+    ```
