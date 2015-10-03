@@ -1,4 +1,4 @@
-# RawData Technologies General Coidng Guide
+# RawData Technologies General Coding Guide
 
 
 ## Table of Contents
@@ -17,24 +17,28 @@ Why?
 
 ## Comments
 
-  ```python
+- **DO NOT** use comments to convey what the code does. 
+	>Instead refactor and convery it via better code. So instead of
+```python
   # convert to cents
   a = x * 100
-  
+
   # avg cents per customer 
   avg = a / n
-  
+
   # add to list
   avgs < avg
   t += 1
 ```
-Better    
+use
 
-  ```python
+```python
   total_cents = total * 100
   average_per_customer = total_cents / customer_count
   track_average(average_per_customer)
-  ```
+```
+- Use comment to explain why. 
+> If you take an approach that might not be obvious to others, you should have a comment that explains why you made the decisions that you did.
 
 ## Functions
 
