@@ -1,4 +1,4 @@
-# RawData Technologies General Coding Guide
+# General Coding Guide
 
 
 ## Table of Contents
@@ -11,13 +11,12 @@
 
 ## DRY
 > DRY stands for Don't Repeat Yourself. Also known as DIE: Duplication is Evil.
-```
 "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system."
-```
 
-You are repeating yourself when
+
+You are violating of DRY
+1. If you are copying and pasting blocks of code from one method, function or block of code to another or
 1. you make mutiple similar code changes for a requirement change
-1. copy pase of code within your application
 
 ## Comments
 
