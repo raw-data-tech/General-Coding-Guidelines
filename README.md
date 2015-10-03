@@ -15,8 +15,8 @@
 
 
 You are violating of DRY
-1. If you are copying and pasting blocks of code from one method, function or block of code to another or
-1. you make mutiple similar code changes for a requirement change
+  1. If you are copying and pasting blocks of code from one method, function or block of code to another or
+  1. you make mutiple similar code changes for a requirement change
 
 ## Comments
 
