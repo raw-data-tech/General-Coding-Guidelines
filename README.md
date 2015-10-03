@@ -16,17 +16,26 @@ Why?
 2. copy pase of code
 
 ## Comments
-'''python
-#convert to cents
-a = x * 100
 
-#avg cents per customer 
-avg = a / n
+	'''python
+	# convert to cents
+	a = x * 100
 
-#add to list
-avgs < avg
-t += 1
-'''
+    # avg cents per customer 
+    avg = a / n
+
+    # add to list
+    avgs < avg
+    t += 1
+    '''
+Better    
+
+    '''python
+    total_cents = total * 100
+	average_per_customer = total_cents / customer_count
+
+	track_average(average_per_customer)
+    '''
 
 ## Functions
 
