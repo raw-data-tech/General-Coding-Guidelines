@@ -3,46 +3,50 @@
 
 ## Table of Contents
 1. [DRY](#dry)
-1. [comments](#comments)
+1. [Comments](#comments)
 1. [Functions](#Functions)
 1. Classes
 1. Think about data than code
 1. Clear variable names
 
 ## DRY
-What?
-Why?
-1. for a requirement change similar code change at mutiple places
-2. copy pase of code
+> DRY stands for Don't Repeat Yourself. Also known as DIE: Duplication is Evil.
+```
+"Every piece of knowledge must have a single, unambiguous, authoritative representation within a system."
+```
+
+You are repeating yourself when
+1. you make mutiple similar code changes for a requirement change
+1. copy pase of code within your application
 
 ## Comments
 
 - **DO NOT** use comments to convey what the code does.
 
-> Refactor code and replace comments with better variable/function name. 
+  > Refactor code and replace comments with better variable/function name. 
 
-Instead of
-```python
-  # convert to cents
-  a = x * 100
-
-  # avg cents per customer 
-  avg = a / n
-
-  # add to list
-  avgs < avg
-  t += 1
-```
-use
-
-```python
-  total_cents = total * 100
-  average_per_customer = total_cents / customer_count
-  track_average(average_per_customer)
-```
+  Instead of
+  ```python
+    # convert to cents
+    a = x * 100
+  
+    # avg cents per customer 
+    avg = a / n
+  
+    # add to list
+    avgs < avg
+    t += 1
+  ```
+  use
+  
+  ```python
+    total_cents = total * 100
+    average_per_customer = total_cents / customer_count
+    track_average(average_per_customer)
+  ```
 - Use comment to explain why. 
-
-  > If you take an approach that might not be obvious to others, you should have a comment that explains why you made the decisions that you did.
+  
+    > If you take an approach that might not be obvious to others, you should have a comment that explains why you made the decisions that you did.
 
 ## Functions
 
