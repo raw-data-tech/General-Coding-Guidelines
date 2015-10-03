@@ -1,4 +1,4 @@
-# RawData Technologies General Coding Guide
+# RawData Technologies General Coidng Guide
 
 
 ## Table of Contents
@@ -16,6 +16,17 @@ Why?
 2. copy pase of code
 
 ## Comments
+'''python
+#convert to cents
+a = x * 100
+
+#avg cents per customer 
+avg = a / n
+
+#add to list
+avgs < avg
+t += 1
+'''
 
 ## Functions
 
