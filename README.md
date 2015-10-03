@@ -17,8 +17,11 @@ Why?
 
 ## Comments
 
-- **DO NOT** use comments to convey what the code does. 
-> Instead refactor and convery it via better code. So instead of
+- **DO NOT** use comments to convey what the code does.
+
+> Refactor code and replace comments with better variable/function name. 
+
+Instead of
 ```python
   # convert to cents
   a = x * 100
@@ -38,7 +41,8 @@ use
   track_average(average_per_customer)
 ```
 - Use comment to explain why. 
-> If you take an approach that might not be obvious to others, you should have a comment that explains why you made the decisions that you did.
+
+  > If you take an approach that might not be obvious to others, you should have a comment that explains why you made the decisions that you did.
 
 ## Functions
 
