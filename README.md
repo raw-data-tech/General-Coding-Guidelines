@@ -55,9 +55,10 @@ Before implementing a function you should have
 3. Is there any side effects or actions(update DB or send email notification)? 
 
 - Reduce [cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) of the function
-  > Cyclomatic complexity is one measure of code quality. It helps us know exactly how complex a particular routine is, and helps us refactor that routine as necessary. 
 
-For most functions, a cyclomatic complexity 
-  1. below 4 is considered good
-  1. between 5 and 7 is considered medium complexity
-  1. between 8 and 10 is high complexity, and above that is extreme complexity
+  > Cyclomatic complexity is one measure of code quality. It helps us know exactly how complex a particular routine is, and helps us refactor that routine as necessary. 
+  
+  For most functions, a cyclomatic complexity 
+    1. below 4 is considered good
+    1. between 5 and 7 is considered medium complexity
+    1. between 8 and 10 is high complexity, and above that is extreme complexity
