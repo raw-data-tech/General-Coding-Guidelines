@@ -18,7 +18,7 @@ Why?
 ## Comments
 
 - **DO NOT** use comments to convey what the code does. 
-	>Instead refactor and convery it via better code. So instead of
+> Instead refactor and convery it via better code. So instead of
 ```python
   # convert to cents
   a = x * 100
