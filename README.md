@@ -66,13 +66,13 @@ You are violating of DRY
 
   > Lesser the complexity easier it is to maintain the code.
 
-For that we need a measure of function complexity.
+  For that we need a measure of function complexity.
 
   > [Cyclometric complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity#Implications_for_software_testing) is one measure of code quality. It helps us know exactly how complex a particular routine is, and helps us refactor that routine as necessary. 
   
-  For most functions, a cyclomatic complexity 
-    1. below 4 is considered good
-    1. between 5 and 7 is considered medium complexity
-    1. between 8 and 10 is high complexity, and above that is extreme complexity
-  
-  There are tools/editor plugins available to measure cyclometric complexity.
+    For most functions, a cyclomatic complexity 
+      1. below 4 is considered good
+      1. between 5 and 7 is considered medium complexity
+      1. between 8 and 10 is high complexity, and above that is extreme complexity
+    
+    There are tools/editor plugins available to measure cyclometric complexity.
