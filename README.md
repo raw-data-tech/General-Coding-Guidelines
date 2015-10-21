@@ -2,6 +2,7 @@
 
 
 ## Table of Contents
+1. [Naming Convection](#namingconvection)
 1. [DRY](#dry)
 1. [Comments](#comments)
 1. [Functions](#Functions)
