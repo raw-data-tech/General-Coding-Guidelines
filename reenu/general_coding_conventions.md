@@ -1,4 +1,4 @@
-<span class="c34">GENERAL CODING CONVENTIONS</span>
+<span class="c50">GENERAL CODING CONVENTIONS</span>
 
 <span class="c13">In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</span>
 
@@ -9,17 +9,17 @@
 -   <span class="c13">to give information about whether the identifier is a classname, variable, function, etc.</span>
 -   <span class="c13">to enable code reviews to focus on more important issues than arguing over syntax and naming standards</span>
 
-<span class="c42 c39">Readability</span>
+<span class="c42 ">Readability</span>
 ----------------------------------------
 
 <span class="c13">Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.</span>
 
 <span class="c13">For example, although the statement</span>
 
-<span class="c26 c53 c39 c63">a = b \* c;
-</span><span class="c13">is </span><span class="c13">[syntactically](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Syntax_(programming_languages)&sa=D&usg=AFQjCNHNOGj-JxYNRIuF-C3mFsYC_Z1MoA)</span><span class="c13"> correct, its purpose is not evident. Contrast this with:</span>
+-   <span class="c20">a = b \* c;</span>
+<span class="c13">is syntactically correct, its purpose is not evident. Contrast this with:</span>
 
-<span class="c26 c63 c53 c39">weekly\_pay = hours\_worked \* pay\_rate;
+-   <span class="c20">weekly\_pay = hours\_worked \* pay\_rate;
 </span><span class="c13">which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.</span>
 
 ### 
