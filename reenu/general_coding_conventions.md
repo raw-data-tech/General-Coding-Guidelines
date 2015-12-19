@@ -40,10 +40,10 @@ The following are some specific conventions that’s considered important.
 (*Note: examples are explained in context of python language)
 
 -	Variables represent objects in the real world, so they should be named with a noun. Every variable name should be "obvious" in the sense that it should convey the purpose of the variable in a way that's readable and understandable. Ask yourself "what does this variable represent in terms of the larger problem I'm trying to solve?" The answer to that question is the name of the variable.
---	eg: to represent first name and last name of a user 
---- fn and ln 
----	first and last
---- go for first_name and last_name (use letter cases according to the specific language)
+	-	eg: to represent first name and last name of a user 
+		- fn and ln 
+		-	first and last
+		- go for first_name and last_name (use letter cases according to the specific language)
 
 -	Types represent categories of objects in the real world, so they, too, should be named with a noun.
 -	Functions and methods represent actions in the real world, so they should be named with a verb.
@@ -70,77 +70,6 @@ student
 
 
 
-<span class="c13">The following are some specific conventions that’s considered important. (</span><span class="c13 c26">\*Note: examples are explained in context of python language</span><span class="c13">)</span>
-
--   <span class="c5">Variables</span><span class="c13"> represent objects in the real world, so they should be named </span><span class="c5">with a noun. </span><span class="c13">Every variable name should be "obvious" in the sense that it should convey the purpose of the variable in a way that's readable and understandable. Ask yourself "what does this variable represent in terms of the larger problem I'm trying to solve?" The answer to that question is the name of the variable.</span>
-
-<!-- -->
-
--   <span class="c13">eg: to represent first name and last name of a user </span>
-
-<!-- -->
-
--   <span class="c13 c55">fn and ln </span>
--   <span class="c13 c55">first and last</span>
--   <span class="c13">go for first\_name and last\_name (use letter cases according to the specific language)</span>
-
-<!-- -->
-
--   <span class="c5">Types</span><span class="c13"> represent categories of objects in the real world, so they, too, should be named </span><span class="c5">with a noun</span><span class="c13">.</span>
--   <span class="c5">Functions and methods </span><span class="c13">represent actions in the real world, so they should be named </span><span class="c5">with a verb.</span>
-
-<!-- -->
-
--   <span class="c13">eg: for a function to print details of a user</span>
-
-<!-- -->
-
--   <span class="c13">go for print(), print\_details(), etc.</span>
-
-<!-- -->
-
--   <span class="c5">Booleans </span><span class="c13">should </span><span class="c5">have an "is", "has", "must be" </span><span class="c13">or something alike in their names. This is true for both boolean variables and functions/methods returning booleans.</span>
-
-<!-- -->
-
--   <span class="c13">eg: to represent a boolean variable which denotes whether the user is a student or not</span>
-
-<!-- -->
-
--   <span class="c13 c55">student </span>
--   <span class="c13">go for is\_student</span>
-
-<!-- -->
-
--   <span class="c5">Class names </span><span class="c13">too should be named </span><span class="c5">with a noun</span><span class="c13">.</span>
-
-<!-- -->
-
--   <span class="c13">eg: a class to represent students  </span>
-
-<!-- -->
-
--   <span class="c13">go for Student</span>
-
-<!-- -->
-
--   <span class="c13">Don't encode types in names. Over the course of a decade of adding features and fixing bugs, types often change. It's clumsy, error-prone, and often quite impossible to change variable names accordingly.</span>
--   <span class="c13">Avoid abbreviations except where they are really obvious and very common. </span>
-
-<!-- -->
-
--   <span class="c13">eg: to represent file id </span>
-
-<!-- -->
-
--   <span class="c13 c55">fid, fi</span>
--   <span class="c13">file\_id</span>
-
-<span class="c13"></span>
-
-<span class="c13 c26">\*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.</span>
-
-<span class="c13"></span>
 
 <span class="c39 c42">Example: Python naming conventions</span>
 
