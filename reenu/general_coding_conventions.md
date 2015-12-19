@@ -39,36 +39,35 @@ The following are some specific conventions that’s considered important.
 
 (*Note: examples are explained in context of python language)
 
--	Variables represent objects in the real world, so they should be named with a noun. Every variable name should be "obvious" in the sense that it should convey the purpose of the variable in a way that's readable and understandable. Ask yourself "what does this variable represent in terms of the larger problem I'm trying to solve?" The answer to that question is the name of the variable.
+-	**Variables** represent objects in the real world, so they should be named with a noun. Every variable name should be "obvious" in the sense that it should convey the purpose of the variable in a way that's readable and understandable. Ask yourself "what does this variable represent in terms of the larger problem I'm trying to solve?" The answer to that question is the name of the variable.
 	-	eg: to represent first name and last name of a user 
 		- fn and ln 
 		-	first and last
 		- go for first_name and last_name (use letter cases according to the specific language)
 
--	Types represent categories of objects in the real world, so they, too, should be named with a noun.
--	Functions and methods represent actions in the real world, so they should be named with a verb.
---	eg: for a function to print details of a user
----	go for print(), print_details(), etc.
+-	**Types** represent categories of objects in the real world, so they, too, should be named with a noun.
 
--	Booleans should have an "is", "has", "must be" or something alike in their names. This is true for both boolean variables and functions/methods returning booleans.
---	eg: to represent a boolean variable which denotes whether the user is a student or not
+-	**Functions and methods** represent actions in the real world, so they should be named with a verb.
+	-	eg: for a function to print details of a user
+		-	go for print(), print_details(), etc.
+
+-	**Booleans** should have an "is", "has", "must be" or something alike in their names. This is true for both boolean variables and functions/methods returning booleans.
+	-	eg: to represent a boolean variable which denotes whether the user is a student or not
 student 
---	go for is_student
+		-	go for is_student
 
--	Class names too should be named with a noun.
---	eg: a class to represent students  
----	go for Student
+-	**Class names** too should be named with a noun.
+	-	eg: a class to represent students  
+		-	go for Student
 
 -	Don't encode types in names. Over the course of a decade of adding features and fixing bugs, types often change. It's clumsy, error-prone, and often quite impossible to change variable names accordingly.
 
--	Avoid abbreviations except where they are really obvious and very common. 
---	eg: to represent file id 
----	fid, fi
----	file_id
+-	Avoid abbreviations except where they are really obvious and very common.
+	-	eg: to represent file id 
+		-	fid, fi
+		-	file_id
 
 (*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.
-
-
 
 
 <span class="c39 c42">Example: Python naming conventions</span>
