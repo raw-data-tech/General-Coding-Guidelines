@@ -73,15 +73,15 @@ student
 ## Example: Python naming conventions
 
 ### Names to Avoid
-	- single character names except for counters or iterators
-	- dashes (-) in any package/module name
-	- _ _double_leading_and _trailing_underscore_ _ names (reserved by Python)
+- single character names except for counters or iterators
+- dashes (-) in any package/module name
+- _ _double_leading_and _trailing_underscore_ _ names (reserved by Python)
 
 ### Naming Convention
-	- "Internal" means internal to a module or protected or private within a class.
-	- Prepending a single underscore (_) has some support for protecting module variables and functions (not included with import * from). Prepending a double underscore (__) to an instance variable or method effectively serves to make the variable or method private to its class (using name mangling).
-	- Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.
-	- Use CapWords for class names, but lower_with_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. 
+- "Internal" means internal to a module or protected or private within a class.
+- Prepending a single underscore (_) has some support for protecting module variables and functions (not included with import * from). Prepending a double underscore (__) to an instance variable or method effectively serves to make the variable or method private to its class (using name mangling).
+- Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.
+- Use CapWords for class names, but lower_with_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. 
 
 ### Guidelines derived from Guido's Recommendations
 
