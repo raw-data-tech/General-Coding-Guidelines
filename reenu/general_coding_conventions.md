@@ -166,7 +166,7 @@ Best coding practices are a set of informal rules that the software development 
 	- Software documentation exists in two forms, external and internal. External documentation is maintained outside of the source code, such as specifications, help files, and design documents. Internal documentation is composed of comments that developers write within the source code at development time. commenting can decrease the cost of knowledge transfer between developers working on the same module.
 
 - Avoid Obvious Comments
-	- ```python
+```python	
 	// get the country code
 	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
 	 
@@ -175,7 +175,7 @@ Best coding practices are a set of informal rules that the software development 
 		// display the form input for state
 		echo form_input_state();
 	}
-	```
+```
 
 - Consistent Indentation
 	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
