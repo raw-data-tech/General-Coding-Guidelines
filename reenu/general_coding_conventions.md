@@ -1,5 +1,4 @@
-<span class="c42">GENERAL CODING CONVENTIONS</span>
-----------------------------------------
+# GENERAL CODING CONVENTIONS
 
 <span class="c13">In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</span>
 
@@ -10,8 +9,7 @@
 -   <span class="c13">to give information about whether the identifier is a classname, variable, function, etc.</span>
 -   <span class="c13">to enable code reviews to focus on more important issues than arguing over syntax and naming standards</span>
 
-<span class="c42 ">Readability</span>
-----------------------------------------
+## Readability
 
 <span class="c13">Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.</span>
 
@@ -25,9 +23,7 @@
 
 <span class="c13">which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.</span>
 
-### 
-
-### <span class="c42 c39 c54">Length of identifiers</span>
+## Length of identifiers
 
 <span class="c13">Fundamental elements of all naming conventions are the rules related to identifier length. Identifier length rules are subject to much debate academically.</span>
 
