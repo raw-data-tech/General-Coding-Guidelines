@@ -70,32 +70,20 @@ student
 **(*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.)**
 
 
-<span class="c39 c42">Example: Python naming conventions</span>
+## Example: Python naming conventions
 
-<span class="c5"></span>
+- Names to Avoid
+	- single character names except for counters or iterators
+	- dashes (-) in any package/module name
+	- _ _double_leading_and _trailing_underscore_ _ names (reserved by Python)
 
-<span class="c5">Names to Avoid</span>
+- Naming Convention
+	- "Internal" means internal to a module or protected or private within a class.
+	- Prepending a single underscore (_) has some support for protecting module variables and functions (not included with import * from). Prepending a double underscore (__) to an instance variable or method effectively serves to make the variable or method private to its class (using name mangling).
+	- Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.
+	- Use CapWords for class names, but lower_with_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. 
 
--   <span class="c13">single character names except for counters or iterators</span>
--   <span class="c13">dashes (</span><span class="c13">-</span><span class="c13">) in any package/module name</span>
--   <span class="c13">\_ \_double\_leading\_and \_trailing\_underscore\_ \_</span><span class="c13"> names (reserved by Python)</span>
-
-<span class="c5"></span>
-
-<span class="c5">Naming Convention</span>
-
--   <span class="c13">"Internal" means internal to a module or protected or private within a class.</span>
--   <span class="c13">Prepending a single underscore (</span><span class="c13">\_</span><span class="c13">) has some support for protecting module variables and functions (not included with </span><span class="c13">import \* from</span><span class="c13">). Prepending a double underscore (</span><span class="c13">\_\_</span><span class="c13">) to an instance variable or method effectively serves to make the variable or method private to its class (using name mangling).</span>
--   <span class="c13">Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.</span>
--   <span class="c13">Use CapWords for class names, but lower\_with\_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. </span>
-
-<span class="c5"></span>
-
-<span class="c5">Guidelines derived from Guido's Recommendations</span>
-
-<span class="c13"></span>
-
-[](#)[](#)
+- Guidelines derived from Guido's Recommendations
 
 <table>
 <colgroup>
@@ -168,9 +156,6 @@ student
 </tbody>
 </table>
 
-<span class="c13"></span>
-
-<span class="c13"></span>
 
 <span class="c22 c39 c45">Best Practices for Writing Super Readable Code</span>
 ===============================================================================
