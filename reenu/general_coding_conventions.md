@@ -167,12 +167,12 @@ Best coding practices are a set of informal rules that the software development 
 
 - Avoid Obvious Comments
 ```python	
-	// get the country code
+	~~// get the country code~~
 	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
 	 
-	// if country code is US
+	~~// if country code is US~~
 	if ($country_code == 'US') {
-		// display the form input for state
+		~~// display the form input for state~~
 		echo form_input_state();
 	}
 ```
