@@ -13,19 +13,15 @@ Reasons for using a naming convention include the following:
 
 Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.
 For example, although the statement
-
--      
+ 
 ```python
 	a = b * c;
 ```
-
 is syntactically correct, its purpose is not evident. Contrast this with:
-
--      
+     
 ```python
 	weekly_pay = hours_worked * pay_rate;
 ```
-
 which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.
 
 ## Length of identifiers
@@ -173,15 +169,15 @@ Best coding practices are a set of informal rules that the software development 
 
 - Avoid Obvious Comments
 
-	~~// get the country code~~
+~~// get the country code~~
 ```python	
 	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
 ```	 
-	~~// if country code is US~~
+~~// if country code is US~~
 ```python	
 	if ($country_code == 'US') {
 ```
-		~~// display the form input for state~~
+~~// display the form input for state~~
 ```python	
 		echo form_input_state();
 	}
