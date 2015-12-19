@@ -202,7 +202,7 @@ Best coding practices are a set of informal rules that the software development 
 	- Too many levels of nesting can make code harder to read and follow.
 	- deep nested code (complicated…!!!!!)
 
-!(/images/image03.png)
+![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image03.png)
 
 	- same code after a bit of refactoring, with no deep nesting (much simpler to understand..!!!!)
 
