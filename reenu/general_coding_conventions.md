@@ -172,8 +172,10 @@ Best coding practices are a set of informal rules that the software development 
 ```python
 	// get the country code......(NOT REQUIRED..!!!!!)
 	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
+
 	// if country code is US......(NOT REQUIRED..!!!!!)
 	if ($country_code == 'US') {
+		
 		// display the form input for state......(NOT REQUIRED..!!!!!)
 		echo form_input_state();
 	}
