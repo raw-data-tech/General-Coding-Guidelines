@@ -16,14 +16,14 @@ For example, although the statement
 
 -      
 ```python
-	a = b \* c;
+	a = b * c;
 ```
 
 is syntactically correct, its purpose is not evident. Contrast this with:
 
 -      
 ```python
-	weekly\_pay = hours\_worked \* pay\_rate;
+	weekly_pay = hours_worked * pay_rate;
 ```
 
 which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.
@@ -181,7 +181,7 @@ Best coding practices are a set of informal rules that the software development 
 ```python	
 	if ($country_code == 'US') {
 ```
-		// display the form input for state
+		~~// display the form input for state~~
 ```python	
 		echo form_input_state();
 	}
