@@ -4,39 +4,71 @@ In computer programming, a naming convention is a set of rules for choosing the 
 
 Reasons for using a naming convention include the following: 
 
--   <span class="c13">to reduce the effort needed to read and understand source code</span>
--   <span class="c13">to enhance source code appearance</span>
--   <span class="c13">to give information about whether the identifier is a classname, variable, function, etc.</span>
--   <span class="c13">to enable code reviews to focus on more important issues than arguing over syntax and naming standards</span>
+-   to reduce the effort needed to read and understand source code
+-   to enhance source code appearance
+-   to give information about whether the identifier is a classname, variable, function, etc.
+-   to enable code reviews to focus on more important issues than arguing over syntax and naming standards
 
 ## Readability
 
-<span class="c13">Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.</span>
+Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.
+For example, although the statement
 
-<span class="c13">For example, although the statement</span>
+-      a = b \* c;
 
--   <span class="c42">a = b \* c;</span>
+is syntactically correct, its purpose is not evident. Contrast this with:
 
-<span class="c13">is syntactically correct, its purpose is not evident. Contrast this with:</span>
+-      weekly\_pay = hours\_worked \* pay\_rate;
 
--   <span class="c42">weekly\_pay = hours\_worked \* pay\_rate;</span>
-
-<span class="c13">which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.</span>
+which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.
 
 ## Length of identifiers
 
-<span class="c13">Fundamental elements of all naming conventions are the rules related to identifier length. Identifier length rules are subject to much debate academically.</span>
+Fundamental elements of all naming conventions are the rules related to identifier length. Identifier length rules are subject to much debate academically.
 
-<span class="c13">Some considerations:</span>
+Some considerations:
 
--   <span class="c13">shorter identifiers may be preferred as more expedient, because they are easier to type</span>
--   <span class="c13">extremely short identifiers (such as 'i' or 'j') are very difficult to uniquely distinguish using automated search and replace tools</span>
--   <span class="c13">longer identifiers may be preferred because short identifiers cannot encode enough information or appear too cryptic</span>
--   <span class="c13">longer identifiers may be disfavored because of visual clutter</span>
-
-<span class="c13"></span>
+-	shorter identifiers may be preferred as more expedient, because they are easier to type
+-	extremely short identifiers (such as 'i' or 'j') are very difficult to uniquely distinguish using automated search and replace tools
+-	longer identifiers may be preferred because short identifiers cannot encode enough information or appear too cryptic
+-	longer identifiers may be disfavored because of visual clutter
 
 ## Naming conventions
+
+The following are some specific conventions that’s considered important. 
+
+(*Note: examples are explained in context of python language)
+
+-	Variables represent objects in the real world, so they should be named with a noun. Every variable name should be "obvious" in the sense that it should convey the purpose of the variable in a way that's readable and understandable. Ask yourself "what does this variable represent in terms of the larger problem I'm trying to solve?" The answer to that question is the name of the variable.
+--	eg: to represent first name and last name of a user 
+--- fn and ln 
+---	first and last
+--- go for first_name and last_name (use letter cases according to the specific language)
+
+-	Types represent categories of objects in the real world, so they, too, should be named with a noun.
+-	Functions and methods represent actions in the real world, so they should be named with a verb.
+--	eg: for a function to print details of a user
+---	go for print(), print_details(), etc.
+
+-	Booleans should have an "is", "has", "must be" or something alike in their names. This is true for both boolean variables and functions/methods returning booleans.
+--	eg: to represent a boolean variable which denotes whether the user is a student or not
+student 
+--	go for is_student
+
+-	Class names too should be named with a noun.
+--	eg: a class to represent students  
+---	go for Student
+
+-	Don't encode types in names. Over the course of a decade of adding features and fixing bugs, types often change. It's clumsy, error-prone, and often quite impossible to change variable names accordingly.
+
+-	Avoid abbreviations except where they are really obvious and very common. 
+--	eg: to represent file id 
+---	fid, fi
+---	file_id
+
+(*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.
+
+
 
 <span class="c13">The following are some specific conventions that’s considered important. (</span><span class="c13 c26">\*Note: examples are explained in context of python language</span><span class="c13">)</span>
 
