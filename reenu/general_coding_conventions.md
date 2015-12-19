@@ -14,11 +14,17 @@ Reasons for using a naming convention include the following:
 Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.
 For example, although the statement
 
--      a = b \* c;
+-      
+```python
+	a = b \* c;
+```
 
 is syntactically correct, its purpose is not evident. Contrast this with:
 
--      weekly\_pay = hours\_worked \* pay\_rate;
+-      
+```python
+	weekly\_pay = hours\_worked \* pay\_rate;
+```
 
 which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.
 
@@ -166,13 +172,17 @@ Best coding practices are a set of informal rules that the software development 
 	- Software documentation exists in two forms, external and internal. External documentation is maintained outside of the source code, such as specifications, help files, and design documents. Internal documentation is composed of comments that developers write within the source code at development time. commenting can decrease the cost of knowledge transfer between developers working on the same module.
 
 - Avoid Obvious Comments
-```python	
+
 	~~// get the country code~~
+```python	
 	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
-	 
+```	 
 	~~// if country code is US~~
+```python	
 	if ($country_code == 'US') {
-		~~// display the form input for state~~
+```
+		// display the form input for state
+```python	
 		echo form_input_state();
 	}
 ```
