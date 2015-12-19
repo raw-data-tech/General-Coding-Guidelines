@@ -1,8 +1,8 @@
 # GENERAL CODING CONVENTIONS
 
-<span class="c13">In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</span>
+In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.
 
-<span class="c13">Reasons for using a naming convention include the following:</span>
+Reasons for using a naming convention include the following: 
 
 -   <span class="c13">to reduce the effort needed to read and understand source code</span>
 -   <span class="c13">to enhance source code appearance</span>
@@ -36,7 +36,7 @@
 
 <span class="c13"></span>
 
-<span class="c42 c39">Naming conventions</span>
+## Naming conventions
 
 <span class="c13">The following are some specific conventions that’s considered important. (</span><span class="c13 c26">\*Note: examples are explained in context of python language</span><span class="c13">)</span>
 
