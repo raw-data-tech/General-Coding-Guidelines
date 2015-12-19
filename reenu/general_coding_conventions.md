@@ -1,4 +1,4 @@
-<span class="c50">GENERAL CODING CONVENTIONS</span>
+<span class="c42">GENERAL CODING CONVENTIONS</span>
 
 <span class="c13">In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</span>
 
@@ -17,10 +17,12 @@
 <span class="c13">For example, although the statement</span>
 
 -   <span class="c20">a = b \* c;</span>
+
 <span class="c13">is syntactically correct, its purpose is not evident. Contrast this with:</span>
 
--   <span class="c20">weekly\_pay = hours\_worked \* pay\_rate;
-</span><span class="c13">which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.</span>
+-   <span class="c20">weekly\_pay = hours\_worked \* pay\_rate;</span>
+
+<span class="c13">which implies the intent and meaning of the source code, at least to those familiar with the context of the statement.</span>
 
 ### 
 
