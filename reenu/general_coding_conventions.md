@@ -167,6 +167,7 @@ Best coding practices are a set of informal rules that the software development 
 - Commenting and Documentation
 	- Software documentation exists in two forms, external and internal. External documentation is maintained outside of the source code, such as specifications, help files, and design documents. Internal documentation is composed of comments that developers write within the source code at development time. commenting can decrease the cost of knowledge transfer between developers working on the same module.
 
+
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image03.png)
 
 
@@ -188,11 +189,15 @@ Best coding practices are a set of informal rules that the software development 
 	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
 	- code with no indentation
 
+
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image02.png)
+
 
 	- properly indented code
 
+
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image00.png)
+
 
 - Consistent Naming Scheme
 	- Use of proper naming conventions is considered good practice.
@@ -210,11 +215,15 @@ Best coding practices are a set of informal rules that the software development 
 	- Too many levels of nesting can make code harder to read and follow.
 	- deep nested code (complicated…!!!!!)
 
+
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image04.png)
+
 
 	- same code after a bit of refactoring, with no deep nesting (much simpler to understand..!!!!)
 
+
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image01.png)
+
 
 - Limit Line Length
 	- Establish a maximum line length for comments and code to avoid having to scroll the window of the text editor 
