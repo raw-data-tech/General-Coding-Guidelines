@@ -37,7 +37,7 @@ Some considerations:
 
 The following are some specific conventions that’s considered important. 
 
-(*Note: examples are explained in context of python language)
+**(*Note: examples are explained in context of python language)**
 
 -	**Variables** represent objects in the real world, so they should be named with a noun. Every variable name should be "obvious" in the sense that it should convey the purpose of the variable in a way that's readable and understandable. Ask yourself "what does this variable represent in terms of the larger problem I'm trying to solve?" The answer to that question is the name of the variable.
 	-	eg: to represent first name and last name of a user 
@@ -67,7 +67,7 @@ student
 		-	fid, fi
 		-	file_id
 
-(*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.
+**(*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.)**
 
 
 <span class="c39 c42">Example: Python naming conventions</span>
