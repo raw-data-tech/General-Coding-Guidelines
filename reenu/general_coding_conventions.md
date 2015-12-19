@@ -83,8 +83,7 @@ student
 - Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.
 - Use CapWords for class names, but lower_with_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. 
 
-### Guidelines derived from Guido's Recommendations/
-saa///
+### Guidelines derived from Guido's Recommendations
 
 <table>
 <colgroup>
@@ -156,6 +155,76 @@ saa///
 </tr>
 </tbody>
 </table>
+
+
+
+## Best Practices for Writing Super Readable Code
+
+Best coding practices are a set of informal rules that the software development community has learned over time which can help improve the quality of software. Many computer programs remain in use for far longer than the original authors ever envisaged, so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors. A few best practises can be seen as:
+
+- Commenting and Documentation
+	- Software documentation exists in two forms, external and internal. External documentation is maintained outside of the source code, such as specifications, help files, and design documents. Internal documentation is composed of comments that developers write within the source code at development time. commenting can decrease the cost of knowledge transfer between developers working on the same module.
+
+- Avoid Obvious Comments
+	- ```python
+	// get the country code
+	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
+	 
+	// if country code is US
+	if ($country_code == 'US') {
+		// display the form input for state
+		echo form_input_state();
+	}
+	```
+
+- Consistent Indentation
+	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
+	- code with no indentation
+	- properly indented code
+
+- Consistent Naming Scheme
+	- Use of proper naming conventions is considered good practice.
+
+- Consistent Temporary Names
+	- Normally, the variables should be descriptive and contain one or more words. But, this doesn't necessarily apply to temporary variables. They can be as short as a single character. It is a good practice to use consistent names for your temporary variables that have the same kind of role.
+
+- Code Grouping
+	- More often, certain tasks require a few lines of code. It is a good idea to keep these tasks within separate blocks of code, with some spaces between them. Use empty lines to provide organisational clues to source code, blocks (“paragraphs”-like structure) help the reader in comprehending the logical segmentation.
+
+- DRY Principle
+	- DRY stands for Don't Repeat Yourself. Dry aims at reducing repetition of same codes throughout the program.
+
+- Avoid Deep Nesting
+	- Too many levels of nesting can make code harder to read and follow.
+	- deep nested code (complicated…!!!!!)
+	- same code after a bit of refactoring, with no deep nesting (much simpler to understand..!!!!)
+
+- Limit Line Length
+	- Establish a maximum line length for comments and code to avoid having to scroll the window of the text editor 
+
+- File and Folder Organization
+	- Arrange and separate your source code logically between files. Technically, you could write an entire application code within a single file. But that would prove to be a nightmare to read and maintain. One of the best approaches is to either use a framework, or imitate their folder structure. 
+	- eg: using Django web framework for web development using python.
+
+- Read Open Source Code
+	- Open Source projects are built with the input of many developers. These projects need to maintain a high level of code readability so that the team can work together as efficiently as possible. Therefore, it is a good idea to browse through the source code of these projects to observe what these developers are doing.
+
+- Code Refactoring
+	- When you "refactor," you make changes to the code without changing any of its functionality. You can think of it like a "clean up," for the sake of improving readability and quality.
+
+- Make use of IDE’s (Integrated Development Environment)
+	- Use freely available IDE’s for development. An IDE normally consists of a source code editor, build automation tools and a debugger. 
+	- Eg: Sublime for python programming.
+
+
+## Source
+
+- https://en.wikipedia.org/wiki/Naming_convention_(programming)
+- https://google.github.io/styleguide/pyguide.html
+- http://programmers.stackexchange.com/questions/33532/naming-conventions-for-variables
+- http://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118
+- http://www.ucl.ac.uk/~ucappgu/seminars/good-practice.pdf
+- http://www.andrejfarkas.com/2013/06/avoid-deep-nesting-to-improve-code-readability/
 
 
 <span class="c22 c39 c45">Best Practices for Writing Super Readable Code</span>
