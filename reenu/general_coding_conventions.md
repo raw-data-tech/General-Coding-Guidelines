@@ -83,8 +83,8 @@ student
 - Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.
 - Use CapWords for class names, but lower_with_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. 
 
-### Guidelines derived from Guido's Recommendations
-
+### Guidelines derived from Guido's Recommendations/
+saa///
 
 <table>
 <colgroup>
