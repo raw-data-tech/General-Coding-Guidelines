@@ -1,6 +1,6 @@
 <span class="c34">GENERAL CODING CONVENTIONS</span>
 
-<span class="c13">In </span><span class="c13">[computer programming](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Computer_programming&sa=D&usg=AFQjCNEFpPjJaOvypxzqq2hukWQghQSxlg)</span><span class="c13">, a </span><span class="c13">[naming convention](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Naming_convention&sa=D&usg=AFQjCNEaJQn2lBs7wnSNObrabGRQxiwSgA)</span><span class="c13"> is a set of rules for choosing the character sequence to be used for </span><span class="c13">[identifiers](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Identifier&sa=D&usg=AFQjCNF70NVYJyCmzpPJj9dzXigBvcTb3A)</span><span class="c13"> which denote </span><span class="c13">[variables](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Variable_(computer_science)&sa=D&usg=AFQjCNEZNJwSrVcYqMPJfozA-xdnOz0iIw)</span><span class="c13">, </span><span class="c13">[types](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Data_type&sa=D&usg=AFQjCNHd72m3KZEE8o2Lf-tqCcOOI8FeEg)</span><span class="c13">, </span><span class="c13">[functions](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Subroutine&sa=D&usg=AFQjCNFiQLVgyl7Q5lRg-Nb3XMHP-5iCWQ)</span><span class="c13">, and other entities in </span><span class="c13">[source code](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Source_code&sa=D&usg=AFQjCNF_1h7AEDPGsg08Ru7ifFXQ8WaBiA)</span><span class="c13"> and </span><span class="c13">[documentation](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Software_documentation&sa=D&usg=AFQjCNHnqIQLa2T-8eMkUhQzhTYcHZ6Ipw)</span><span class="c13">.</span>
+<span class="c13">In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation.</span>
 
 <span class="c13">Reasons for using a naming convention include the following:</span>
 
@@ -12,7 +12,7 @@
 <span class="c42 c39">Readability</span>
 ----------------------------------------
 
-<span class="c13">Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the </span><span class="c13">[source code](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Source_code&sa=D&usg=AFQjCNF_1h7AEDPGsg08Ru7ifFXQ8WaBiA)</span><span class="c13"> to apply for new needs.</span>
+<span class="c13">Hidden from the view of most users, well-chosen identifiers make it significantly easier for developers and analysts to understand what the system is doing and how to fix or extend the source code to apply for new needs.</span>
 
 <span class="c13">For example, although the statement</span>
 
