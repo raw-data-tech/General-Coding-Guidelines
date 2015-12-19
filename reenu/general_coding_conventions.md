@@ -188,11 +188,11 @@ Best coding practices are a set of informal rules that the software development 
 	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
 	- code with no indentation
 
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image00.png)
+	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image02.png)
 
 	- properly indented code
 
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image02.png)
+	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image00.png)
 
 - Consistent Naming Scheme
 	- Use of proper naming conventions is considered good practice.
@@ -210,11 +210,11 @@ Best coding practices are a set of informal rules that the software development 
 	- Too many levels of nesting can make code harder to read and follow.
 	- deep nested code (complicated…!!!!!)
 
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image01.png)
+	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image04.png)
 
 	- same code after a bit of refactoring, with no deep nesting (much simpler to understand..!!!!)
 
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image04.png)
+	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image01.png)
 
 - Limit Line Length
 	- Establish a maximum line length for comments and code to avoid having to scroll the window of the text editor 
@@ -231,7 +231,7 @@ Best coding practices are a set of informal rules that the software development 
 
 - Make use of IDE’s (Integrated Development Environment)
 	- Use freely available IDE’s for development. An IDE normally consists of a source code editor, build automation tools and a debugger. 
-	- Eg: Sublime for python programming.
+		- Eg: Sublime for python programming.
 
 
 ## Source
