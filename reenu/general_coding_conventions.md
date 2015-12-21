@@ -5,7 +5,7 @@
 * [Readability](#readability)
 * [Length of identifiers](#length-of-identifiers)
 * [Important Naming conventions](#important-naming-conventions)
-* [Example: Python naming conventions](#example:-python-naming-conventions)
+* [Example: Python naming conventions](#example-:-python-naming-conventions)
 	- [Names to Avoid](#names-to-avoid)
 	- [Naming Convention](#naming-convention)
 	- [Guidelines Derived from Guido's Recommendations](#guidelines-derived-from-guido's-recommendations)
