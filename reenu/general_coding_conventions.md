@@ -230,14 +230,32 @@ Best coding practices are a set of informal rules that the software development 
 	- Too many levels of nesting can make code harder to read and follow.
 	- deep nested code (complicated…!!!!!)
 
-
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image04.png)
+	```python
+	if a:
+		if b:
+			f()
+	    else:
+	        g()
+	else:
+	    if b:
+	        h()
+	    else:
+	        i()
+	```
 
 
 	- same code after a bit of refactoring, with no deep nesting (much simpler to understand..!!!!)
 
-
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image01.png)
+	```python
+	if a and b:
+		f()
+	elif a and not b:
+	    g()
+	elif not a and b:
+	    h()
+	elif not a and not b:
+	    i()
+    ```
 
 
 - Limit Line Length
