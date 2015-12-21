@@ -1,9 +1,9 @@
 # GENERAL CODING CONVENTIONS
 
 ## Table of Contents
-1. [Naming Conventions](#Naming Conventions)
-2. [Readability](#Readability)
-3. [Length of identifiers](#Length of identifiers)
+1. [Naming Conventions](#namingconventions)
+2. [Readability](#readability)
+3. [Length of identifiers](#lengthofidentifiers)
 
 
 ## Naming Conventions
