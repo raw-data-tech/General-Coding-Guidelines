@@ -179,14 +179,14 @@ student
 
 Best coding practices are a set of informal rules that the software development community has learned over time which can help improve the quality of software. Many computer programs remain in use for far longer than the original authors ever envisaged, so any rules need to facilitate both initial development and subsequent maintenance and enhancement by people other than the original authors. A few best practises can be seen as:
 
-- Commenting and Documentation
+- **Commenting and Documentation**
 	- Software documentation exists in two forms, external and internal. External documentation is maintained outside of the source code, such as specifications, help files, and design documents. Internal documentation is composed of comments that developers write within the source code at development time. commenting can decrease the cost of knowledge transfer between developers working on the same module.
 
 
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image03.png)
 
 
-- Avoid Obvious Comments
+- **Avoid Obvious Comments**
 
 ```python
 #!/usr/bin/python
@@ -205,10 +205,10 @@ changeme( mylist );
 print "Values : ", mylist
 ```
 
-- Consistent Indentation
+- **Consistent Indentation**
 	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
 	- code with no indentation (JavaScript While Loop)
-	
+
 
 	```python
 	while (i < 10) {
@@ -245,19 +245,19 @@ print "Values : ", mylist
 		            print(a, b, c)
 		```
 
-- Consistent Naming Scheme
+- **Consistent Naming Scheme**
 	- Use of proper naming conventions is considered good practice.
 
-- Consistent Temporary Names
+- **Consistent Temporary Names**
 	- Normally, the variables should be descriptive and contain one or more words. But, this doesn't necessarily apply to temporary variables. They can be as short as a single character. It is a good practice to use consistent names for your temporary variables that have the same kind of role.
 
-- Code Grouping
+- **Code Grouping**
 	- More often, certain tasks require a few lines of code. It is a good idea to keep these tasks within separate blocks of code, with some spaces between them. Use empty lines to provide organisational clues to source code, blocks (“paragraphs”-like structure) help the reader in comprehending the logical segmentation.
 
-- DRY Principle
+- **DRY Principle**
 	- DRY stands for Don't Repeat Yourself. Dry aims at reducing repetition of same codes throughout the program.
 
-- Avoid Deep Nesting
+- **Avoid Deep Nesting**
 	- Too many levels of nesting can make code harder to read and follow.
 	- deep nested code (complicated…!!!!!)
 
@@ -291,20 +291,20 @@ print "Values : ", mylist
     ```
 
 
-- Limit Line Length
+- **Limit Line Length**
 	- Establish a maximum line length for comments and code to avoid having to scroll the window of the text editor 
 
-- File and Folder Organization
+- **File and Folder Organization**
 	- Arrange and separate your source code logically between files. Technically, you could write an entire application code within a single file. But that would prove to be a nightmare to read and maintain. One of the best approaches is to either use a framework, or imitate their folder structure. 
 	- eg: using Django web framework for web development using python.
 
-- Read Open Source Code
+- **Read Open Source Code**
 	- Open Source projects are built with the input of many developers. These projects need to maintain a high level of code readability so that the team can work together as efficiently as possible. Therefore, it is a good idea to browse through the source code of these projects to observe what these developers are doing.
 
-- Code Refactoring
+- **Code Refactoring**
 	- When you "refactor," you make changes to the code without changing any of its functionality. You can think of it like a "clean up," for the sake of improving readability and quality.
 
-- Make use of IDE’s (Integrated Development Environment)
+- **Make use of IDE’s (Integrated Development Environment)**
 	- Use freely available IDE’s for development. An IDE normally consists of a source code editor, build automation tools and a debugger. 
 		- Eg: Sublime for python programming.
 
