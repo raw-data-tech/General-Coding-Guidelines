@@ -1,9 +1,10 @@
 # GENERAL CODING CONVENTIONS
 
 ## Table of Contents
-1. [Naming Conventions](#namingconventions)
+1. [Naming Conventions](#naming conventions)
 2. [Readability](#readability)
-3. [Length of identifiers](#lengthofidentifiers)
+3. [Length of identifiers](#length of identifiers)
+
 
 
 ## Naming Conventions
@@ -43,7 +44,7 @@ Some considerations:
 -	longer identifiers may be preferred because short identifiers cannot encode enough information or appear too cryptic
 -	longer identifiers may be disfavored because of visual clutter
 
-## Naming conventions
+## Important Naming conventions
 
 The following are some specific conventions that’s considered important. 
 
