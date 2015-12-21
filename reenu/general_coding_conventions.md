@@ -189,15 +189,20 @@ Best coding practices are a set of informal rules that the software development 
 - Avoid Obvious Comments
 
 ```python
-	// get the country code......(NOT REQUIRED..!!!!!)
-	$country_code = get_country_code($_SERVER['REMOTE_ADDR']);
+#!/usr/bin/python
 
-	// if country code is US......(NOT REQUIRED..!!!!!)
-	if ($country_code == 'US') {
+def changeme( mylist ):
+   #Function to accept a list and append it.
+   mylist.append([1,2,3,4]);
+   return
 
-		// display the form input for state......(NOT REQUIRED..!!!!!)
-		echo form_input_state();
-	}
+mylist = [10,20,30];
+
+#calling the function......(this comment is not actually required ...!!!!!)
+changeme( mylist );
+
+#printing the list......(this comment is not actually required ...!!!!!)
+print "Values : ", mylist
 ```
 
 - Consistent Indentation
@@ -217,6 +222,7 @@ Best coding practices are a set of informal rules that the software development 
 		- Python uses a different principle. Python programs get structured through indentation, i.e. code blocks are defined by their indentation. This principle makes it easier to read and understand other people's Python code. So, how does it work? All statements with the same distance to the right belong to the same block of code, i.e. the statements within a block line up vertically. The block ends at a line less indented or the end of the file. If a block has to be more deeply nested, it is simply indented further to the right.  Python functions have no explicit begin or end, and no curly braces to mark where the function code starts and stops. The only delimiter is a colon (:) and the indentation of the code itself.
 
 		![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/blocks.png)
+
 
 		```python
 		from math import sqrt
@@ -302,3 +308,5 @@ Best coding practices are a set of informal rules that the software development 
 - http://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118
 - http://www.ucl.ac.uk/~ucappgu/seminars/good-practice.pdf
 - http://www.andrejfarkas.com/2013/06/avoid-deep-nesting-to-improve-code-readability/
+- http://www.python-course.eu/python3_blocks.php
+
