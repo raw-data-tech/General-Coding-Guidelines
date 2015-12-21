@@ -213,6 +213,22 @@ Best coding practices are a set of informal rules that the software development 
 
 	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image00.png)
 
+	- pyhton whitespace indentation
+		- Python uses a different principle. Python programs get structured through indentation, i.e. code blocks are defined by their indentation. This principle makes it easier to read and understand other people's Python code. So, how does it work? All statements with the same distance to the right belong to the same block of code, i.e. the statements within a block line up vertically. The block ends at a line less indented or the end of the file. If a block has to be more deeply nested, it is simply indented further to the right.  Python functions have no explicit begin or end, and no curly braces to mark where the function code starts and stops. The only delimiter is a colon (:) and the indentation of the code itself.
+
+		![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/blocks.png)
+
+		```python
+		from math import sqrt
+		n = input("Maximal Number? ")
+		n = int(n)+1
+		for a in range(1,n):
+		    for b in range(a,n):
+		        c_square = a**2 + b**2
+		        c = int(sqrt(c_square))
+		        if ((c_square - c**2) == 0):
+		            print(a, b, c)
+		```
 
 - Consistent Naming Scheme
 	- Use of proper naming conventions is considered good practice.
@@ -230,6 +246,7 @@ Best coding practices are a set of informal rules that the software development 
 	- Too many levels of nesting can make code harder to read and follow.
 	- deep nested code (complicated…!!!!!)
 
+
 	```python
 	if a:
 		if b:
@@ -245,6 +262,7 @@ Best coding practices are a set of informal rules that the software development 
 
 
 	- same code after a bit of refactoring, with no deep nesting (much simpler to understand..!!!!)
+
 
 	```python
 	if a and b:
