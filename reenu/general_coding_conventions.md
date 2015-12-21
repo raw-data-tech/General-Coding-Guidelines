@@ -1,9 +1,18 @@
 # GENERAL CODING CONVENTIONS
 
 ## Table of Contents
-1. [Naming Conventions](#naming-conventions)
-2. [Readability](#readability)
-3. [Length of identifiers](#length-of-identifiers)
+* [Naming Conventions](#naming-conventions)
+* [Readability](#readability)
+* [Length of identifiers](#length-of-identifiers)
+* [Important Naming conventions](#important-naming-conventions)
+* [Example: Python naming conventions](#example:-python-naming-conventions)
+	- [Names to Avoid](#names-to-avoid)
+	- [Naming Convention](#naming-convention)
+	- [Guidelines Derived from Guido's Recommendations](#guidelines-derived-from-guido's-recommendations)
+* [Best Practices for Writing Super Readable Code](#best-practices-for-writing-super-readable-code)
+* [Source](#source)
+
+
 
 
 
@@ -81,7 +90,7 @@ student
 **(*Note: The exact rules of a naming convention depend on the context in which they are employed (eg: language dependent). Nevertheless, there are several common elements that influence most if not all naming conventions in common use today.)**
 
 
-## Example: Python naming conventions
+## Example: Python Naming Conventions
 
 ### Names to Avoid
 - single character names except for counters or iterators
@@ -94,7 +103,7 @@ student
 - Place related classes and top-level functions together in a module. Unlike Java, there is no need to limit yourself to one class per module.
 - Use CapWords for class names, but lower_with_under.py for module names. Although there are many existing modules named CapWords.py, this is now discouraged because it's confusing when the module happens to be named after a class. 
 
-### Guidelines derived from Guido's Recommendations
+### Guidelines Derived from Guido's Recommendations
 
 <table>
 <colgroup>
