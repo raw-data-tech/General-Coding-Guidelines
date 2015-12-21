@@ -207,7 +207,8 @@ print "Values : ", mylist
 
 - Consistent Indentation
 	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
-	- code with no indentation
+	- code with no indentation (JavaScript While Loop)
+	
 
 	```python
 	while (i < 10) {
@@ -216,7 +217,8 @@ print "Values : ", mylist
 	}
 	```
 
-	- properly indented code
+	- properly indented code (JavaScript While Loop)
+
 
 	```python
 	while (i < 10) {
