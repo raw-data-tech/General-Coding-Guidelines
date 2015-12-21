@@ -209,14 +209,23 @@ print "Values : ", mylist
 	- Indent code to better convey the logical structure of your code. Without indenting, code becomes difficult to follow.
 	- code with no indentation
 
-
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image02.png)
+```python
+while (i < 10) {
+text += "The number is " + i;
+i++;
+}
+```
 
 
 	- properly indented code
 
+```python
+while (i < 10) {
+	text += "The number is " + i;
+	i++;
+}
+```
 
-	![image](https://github.com/raw-data-tech/General-Coding-Guidelines/blob/master/reenu/images/image00.png)
 
 	- pyhton whitespace indentation
 		- Python uses a different principle. Python programs get structured through indentation, i.e. code blocks are defined by their indentation. This principle makes it easier to read and understand other people's Python code. So, how does it work? All statements with the same distance to the right belong to the same block of code, i.e. the statements within a block line up vertically. The block ends at a line less indented or the end of the file. If a block has to be more deeply nested, it is simply indented further to the right.  Python functions have no explicit begin or end, and no curly braces to mark where the function code starts and stops. The only delimiter is a colon (:) and the indentation of the code itself.
